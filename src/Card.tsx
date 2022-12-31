@@ -9,7 +9,7 @@ import logo from "./assets/logo.svg";
 const Card = () => {
 	return (
 		<div className="font-sans text-Gray font-semibold w-11/12 h-5/6 text-center flex flex-col items-center">
-			<img className="w-1/6" src={logo} alt="" />
+			<img className="w-1/6 sm:w-[100px]" src={logo} alt="" />
 			<h1 className="text-3xl font-light relative pt-12">
 				{" "}
 				We are launching{" "}
@@ -18,12 +18,12 @@ const Card = () => {
 
 			<p className="pt-4 text-Very_Dark_Blue font-light">Subscribe and get notified</p>
 
-			<div className="w-5/6 pt-8">
+			<div className="w-5/6 pt-8 sm:max-w-[700px]">
 				{" "}
 				<Input />
 			</div>
 
-			<img className="pt-16" src={dashboard} alt="" />
+			<img className="pt-16 max-w-[650px] w-full" src={dashboard} alt="" />
 			<div className="flex gap-x-4 pt-20">
 				<Icon src={facebook} />
 				<Icon src={twitter} />
