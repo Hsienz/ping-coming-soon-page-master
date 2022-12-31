@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .filter-Blue {
+    filter: brightness(0) saturate(100%) invert(42%) sepia(83%) saturate(2730%) hue-rotate(210deg) brightness(102%) contrast(91%);
+  }
+  .error input {
+    @apply border-Light_Red;
+  }
+  .error i {
+    @apply block;
+  }
+}/*# sourceMappingURL=index.css.map */
